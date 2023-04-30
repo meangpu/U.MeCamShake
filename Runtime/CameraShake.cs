@@ -9,8 +9,8 @@ public class CameraShake : MonoBehaviour
     float shakeTotal;
     float startIntensity;
 
-    [SerializeField] float _intensity;
-    [SerializeField] float _duration;
+    [SerializeField] float _intensity = 12f;
+    [SerializeField] float _duration = .8f;
 
     public static CameraShake Instance;
 
