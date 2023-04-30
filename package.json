@@ -1,8 +1,8 @@
 {
-  "name": "com.meangpu.tools",
+  "name": "com.meangpu.camshake",
   "version": "0.0.1",
   "unity": "2021.3",
-  "displayName": "MeTools",
+  "displayName": "MeCamShake",
   "description": "the helpful des \n very use ful",
   "type": "template",
   "author": {
@@ -10,12 +10,6 @@
     "url": "https://github.com/meangpu"
   },
   "dependencies": {
-    "com.unity.textmeshpro": "3.0.6"
-  },
-  "samples": [
-    {
-      "displayName": "ColorSet",
-      "path": "Samples~/ColorSet"
-    }
-  ]
+    "com.unity.cinemachine": "2.9.5"
+  }
 }
